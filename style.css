@@ -48,6 +48,9 @@
     margin: 40px auto 40px auto;
 }
 
+
+/*  Hero Section start from here */
+
 .banner-back{
     display: flex;
     background-color: rgb(198, 228, 214);
@@ -86,11 +89,132 @@
 .left-side{
     margin: 30px;
     align-items: center;
+    margin-left: -100px;
 }
 .right-side{
     margin: 30px;
     align-items: center;
+    margin-right: -100px;
 }
 .banner{
     margin-top: 50px;
+}
+
+
+/*  Hero Section End From here */
+
+
+/* Vision Section Start from here */
+
+.vision-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+}
+.vision-container{
+    margin: 80px 205px;
+}
+.card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px;
+}
+.card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px;
+}
+.card{
+    max-width: 350px;
+    padding: 50px 36px 50px 36px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 30px;
+}
+.card2{
+    max-width: 350px;
+    padding: 50px 36px 50px 36px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 30px;
+}
+.card3{
+    max-width: 350px;
+    padding: 50px 36px 50px 36px;
+    background-color:rgb(247, 235, 207);
+    border-radius: 30px;
+}
+.card-img{
+    text-align: left;
+}
+.card-btn1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(84, 144, 245);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-left: 8px;   
+}
+.card-btn2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 161, 92);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-left: 8px;   
+}
+.card-btn3{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 194, 57);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-left: 8px;   
+}
+.card-container{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 24px;
 }
