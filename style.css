@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     max-width: 1920px;
 }
-body{
+
+body {
     background-color: #f5f5f5;
 }
 
 /* Shared style */
-.btn-primary{
+.btn-primary {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 106, 80);
     font-family: Fira Sans;
@@ -25,25 +26,31 @@ body{
     margin-left: 8px;
 }
 
+.btn-primary:hover {
+    background-color: rgb(10, 63, 38)
+}
+
 /* Navbar Style Start from here */
-.logo{
+.logo {
     font-family: fira sans;
     font-weight: bold;
     font-size: 32px;
     margin-left: -350px;
 }
-.na-btn{
+
+.na-btn {
     margin-right: -350px;
 }
 
-.nav-btn{
+.nav-btn {
     color: #006A50;
     background-color: aliceblue;
     border: 1px solid #006A50;
     padding: 15px 30px 15px 30px;
     border-radius: 10px;
 }
-.navbar{
+
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -54,7 +61,7 @@ body{
 
 /*  Hero Section start from here */
 
-.banner-back{
+.banner-back {
     display: flex;
     background-color: rgb(198, 228, 214);
     max-width: 1300px;
@@ -63,13 +70,14 @@ body{
     border-radius: 30px;
     padding: 80px 100px;
 }
-.banner-back{
+
+.banner-back {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.banner-subtitle{
+.banner-subtitle {
     color: rgba(14, 14, 14, 0.5);
     font-family: Fira Sans;
     font-size: 24px;
@@ -79,7 +87,8 @@ body{
     text-align: left;
     margin: 10px;
 }
-.banner-title{
+
+.banner-title {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 56px;
@@ -89,17 +98,20 @@ body{
     text-align: left;
     margin: 10px;
 }
-.left-side{
+
+.left-side {
     margin: 30px;
     align-items: center;
     margin-left: -100px;
 }
-.right-side{
+
+.right-side {
     margin: 30px;
     align-items: center;
     margin-right: -100px;
 }
-.banner{
+
+.banner {
     margin-top: 50px;
 }
 
@@ -109,7 +121,7 @@ body{
 
 /* Vision Section Start from here */
 
-.vision-title{
+.vision-title {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 40px;
@@ -118,7 +130,8 @@ body{
     letter-spacing: 0%;
     text-align: left;
 }
-.vision-description{
+
+.vision-description {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 18px;
@@ -128,10 +141,12 @@ body{
     text-align: left;
     padding: 10px;
 }
-.vision-container{
+
+.vision-container {
     margin: 80px 205px;
 }
-.card-title{
+
+.card-title {
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 20px;
@@ -141,7 +156,8 @@ body{
     text-align: left;
     margin: 10px;
 }
-.card-description{
+
+.card-description {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -151,28 +167,33 @@ body{
     text-align: left;
     margin: 10px;
 }
-.card{
+
+.card {
     max-width: 350px;
     padding: 50px 36px 50px 36px;
     background-color: rgba(84, 144, 245, 0.2);
     border-radius: 30px;
 }
-.card2{
+
+.card2 {
     max-width: 350px;
     padding: 50px 36px 50px 36px;
     background-color: rgb(198, 228, 214);
     border-radius: 30px;
 }
-.card3{
+
+.card3 {
     max-width: 350px;
     padding: 50px 36px 50px 36px;
-    background-color:rgb(247, 235, 207);
+    background-color: rgb(247, 235, 207);
     border-radius: 30px;
 }
-.card-img{
+
+.card-img {
     text-align: left;
 }
-.card-btn1{
+
+.card-btn1 {
     color: rgb(255, 255, 255);
     background-color: rgb(84, 144, 245);
     font-family: Fira Sans;
@@ -184,9 +205,14 @@ body{
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
-    margin-left: 8px;   
+    margin-left: 8px;
 }
-.card-btn2{
+
+.card-btn1:hover {
+    background-color: rgb(2, 36, 49);
+}
+
+.card-btn2 {
     color: rgb(255, 255, 255);
     background-color: rgb(9, 161, 92);
     font-family: Fira Sans;
@@ -198,9 +224,14 @@ body{
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
-    margin-left: 8px;   
+    margin-left: 8px;
 }
-.card-btn3{
+
+.card-btn2:hover {
+    background-color: rgb(2, 49, 25);
+}
+
+.card-btn3 {
     color: rgb(255, 255, 255);
     background-color: rgb(255, 194, 57);
     font-family: Fira Sans;
@@ -212,11 +243,16 @@ body{
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
-    margin-left: 8px;   
+    margin-left: 8px;
 }
-.card-container{
+
+.card-btn3:hover {
+    background-color: rgb(63, 52, 3);
+}
+
+.card-container {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 50px;
     gap: 24px;
@@ -226,7 +262,7 @@ body{
 
 /* Recent news start form here */
 
-.recent-title{
+.recent-title {
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 40px;
@@ -237,7 +273,7 @@ body{
     margin: 10px;
 }
 
-.recent-description{
+.recent-description {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -249,10 +285,11 @@ body{
     padding-top: 10px;
 }
 
-.recent-head{
+.recent-head {
     margin: 40px 180px;
 }
-.box-title{
+
+.box-title {
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 32px;
@@ -262,20 +299,12 @@ body{
     text-align: left;
     margin-left: 10px;
 }
-.rightbox{
+
+.rightbox {
     margin: 32px;
 }
-.box-date{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-left: 10px;
-}
-.box-details{
+
+.box-date {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -286,19 +315,33 @@ body{
     margin-left: 10px;
 }
 
-.box-img{
+.box-details {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.box-img {
     padding: 10px;
 }
-.boximg{
+
+.boximg {
     border-radius: 20px;
 }
-.box{
+
+.box {
     display: flex;
     margin: 48px 180px;
     background-color: #ffffff;
     border-radius: 30px;
 }
-.box2{
+
+.box2 {
     display: flex;
 }
 
@@ -306,8 +349,8 @@ body{
 
 /* Donate Section Start From here */
 
-  
-.donate-title{
+
+.donate-title {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 40px;
@@ -317,7 +360,7 @@ body{
     text-align: center;
 }
 
-.donate-details{
+.donate-details {
     max-width: 1100px;
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
@@ -328,14 +371,16 @@ body{
     text-align: center;
     margin: 24px auto;
 }
-.amount-container{
+
+.amount-container {
     max-width: 1000px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 10px auto;
 }
-.amount-box{
+
+.amount-box {
     max-width: 240px;
     margin: 20px;
     padding: 40px;
@@ -350,7 +395,12 @@ body{
     letter-spacing: 0%;
     text-align: left;
 }
-.amount-box2{
+
+.amount-box:hover {
+    background-color: rgb(228, 214, 198);
+}
+
+.amount-box2 {
     max-width: 240px;
     margin: 20px;
     padding: 40px;
@@ -365,22 +415,12 @@ body{
     letter-spacing: 0%;
     text-align: left;
 }
-.amount-box3{
-    max-width: 240px;
-    margin: 20px;
-    padding: 40px;
+
+.amount-box2:hover {
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 10px;
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    text-align: left;
 }
-.amount-box4{
+
+.amount-box3 {
     max-width: 240px;
     margin: 20px;
     padding: 40px;
@@ -396,28 +436,57 @@ body{
     text-align: left;
 }
 
-.input1{
+.amount-box3:hover {
+    background-color: rgb(216, 198, 228);
+}
+
+.amount-box4 {
+    max-width: 240px;
+    margin: 20px;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.amount-box4:hover {
+    background-color: rgb(228, 198, 215);
+}
+
+.input1 {
     max-width: 800px;
     margin: 20px 40px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    padding: 20px 40px 20px 40px;
+    padding: 0 40px 0px 40px;
     background: rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0px auto;
 }
-input{
-    border: none;
-    color: rgba(14, 14, 14, 0.3);
+
+input {
+    color: black;
+    background: #ffffff;
     font-family: Fira Sans;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+    border: none;
+    padding: 20px;
+    outline: none;
 }
-.btn-donate{
+
+.btn-donate {
     justify-content: center;
     margin: 10px auto;
     align-items: center;
@@ -434,13 +503,98 @@ input{
     border-radius: 8px;
     margin-left: 8px;
 }
-.btn-d{
+
+.btn-d {
     text-align: center;
     margin: 25px auto;
 }
 
-#donate{
+.btn-donate:hover {
+    background-color: rgb(10, 63, 38);
+}
+
+#donate {
     margin: 80px auto;
 }
 
 /* Donate Section End From Here */
+
+
+/* sub news section start from here */
+
+#sub-news {
+    max-width: 1280px;
+    margin: 0 auto 50px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.sub-news-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sub-news-description {
+    margin: 10px auto;
+    width: 622px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sub-news-button {
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+}
+
+.sub-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    gap: none;
+    padding: 20px 36px;
+    border-radius: 8px;
+    margin-left: -8px;
+}
+
+.sub-btn:hover {
+    background-color: rgb(10, 63, 38)
+}
+.sub-news-input{
+    text-align: center;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 40px;
+}
+.sub-new-container{
+    padding: 80px 100px;
+}
+.sub-input{
+    border-radius: 10px;
+    width: 600px;
+}
+.sub-subline{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
