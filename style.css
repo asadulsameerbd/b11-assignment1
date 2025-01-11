@@ -246,6 +246,7 @@ body{
     letter-spacing: 0%;
     text-align: left;
     margin: 10px;
+    padding-top: 10px;
 }
 .box{
     display: flex;
@@ -290,10 +291,12 @@ body{
 .box-img{
     padding: 10px;
 }
-
-.leftimg{
+.boximg{
     border-radius: 20px;
 }
 .box{
     margin: 48px 180px;
+}
+.box2{
+    display: flex;
 }
