@@ -165,6 +165,110 @@ body {
     display: flex;
 }
 
+/* Piller section end from here */
+
+/* quote section start from here */
+#quot{
+    max-width: 1280px;
+    margin: 80px auto;
+    background-color: #ffffff;
+    padding: 48px 24px;
+    border-radius: 20px;
+    position: relative;
+}
+.quot-img{
+    position: absolute;
+    width: 27.43px;
+    height: 54.86px;
+    left: 36.57px;
+    top: 20px;
+}
+.quote-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.quote-subtitle{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.quot-description{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* quote section end from here */
+
+/* option section style start from here */
+table,tr, td,th{
+    max-width: 1500px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+    padding: 60px;
+    text-align: center;
+    justify-content: center;
+}
+th,td{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+th{
+    background: rgb(198, 228, 214);
+}
+select{
+    color: black;
+    background: rgb(198, 228, 214);
+    padding: 10px;
+    font-family: Fira Sans;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.opinion{
+    max-width: 1280px;
+    margin: 32px auto;
+    background-color: #ffffff;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 140px;
+    border-radius: 30px;
+}
+.option{
+    max-width: 1500px;
+    margin: 80px auto;
+}
+.option-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* option section style End from here */
 /* Vision Section Start from here */
 
 .vision-title {
