@@ -118,6 +118,52 @@ body {
 
 /*  Hero Section End From here */
 
+/* Piller section start from here */
+.piller{
+    max-width: 1500px;
+    margin: 80px auto;
+}
+.piller-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 20px auto;
+}
+.p-box{
+    max-width: 300px;
+    border: 1px solid  rgba(14, 14, 14, 0.15);
+    background-color: #ffffff;
+    padding: 30px 30px;
+    border-radius: 20px; 
+    margin: 20px 20px 20px 0;
+}
+.pill-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+}
+.pill-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+}
+.pill-box-container{
+    display: flex;
+}
 
 /* Vision Section Start from here */
 
@@ -524,7 +570,7 @@ input {
 
 #sub-news {
     max-width: 1280px;
-    margin: 0 auto 50px;
+    margin: 0 auto 80px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
 }
@@ -598,3 +644,33 @@ input {
     letter-spacing: 0%;
     text-align: center;
 }
+
+/* sub news section End from here */
+
+/* Footer Style start from here */
+.footer-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 50px auto 31px auto;
+    margin-bottom: 31px;
+}
+.footer-container{
+    max-width: 1600px;
+    margin: 0px auto;
+}
+hr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.footer-img{
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    word-spacing: 20px;
+
+}
+/* Footer Style End From Here */
