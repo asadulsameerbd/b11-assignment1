@@ -24,6 +24,7 @@ body {
     padding: 10px 15px;
     border-radius: 8px;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .btn-primary:hover {
@@ -48,6 +49,11 @@ body {
     border: 1px solid #006A50;
     padding: 15px 30px 15px 30px;
     border-radius: 10px;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    background-color: #006A50;
+    color: #ffffff;
 }
 
 .navbar {
@@ -100,18 +106,19 @@ body {
 }
 
 .left-side {
-    margin: 30px;
+    margin: 100px;
     align-items: center;
     margin-left: -100px;
 }
 
 .right-side {
-    margin: 30px;
+    margin: 100px;
     align-items: center;
     margin-right: -100px;
 }
 
 .banner {
+    justify-content: space-between;
     margin-top: 50px;
 }
 
@@ -140,6 +147,10 @@ body {
     padding: 30px 30px;
     border-radius: 20px; 
     margin: 20px 20px 20px 0;
+}
+.p-box:hover{
+    box-shadow: 0px 6px 50px 0px rgba(107, 233, 5, 0.15);
+    transition: 0.3ms;
 }
 .pill-title{
     color: rgba(14, 14, 14, 0.8);
@@ -242,6 +253,7 @@ select{
     font-family: Fira Sans;
     font-size: 15px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .opinion{
     max-width: 1280px;
@@ -254,6 +266,7 @@ select{
     padding-left: 140px;
     border-radius: 30px;
 }
+
 .option{
     max-width: 1500px;
     margin: 80px auto;
@@ -324,12 +337,18 @@ select{
     background-color: rgba(84, 144, 245, 0.2);
     border-radius: 30px;
 }
+.card:hover{
+    box-shadow: 0px 6px 50px 0px rgba(107, 233, 5, 0.15);
+}
 
 .card2 {
     max-width: 350px;
     padding: 50px 36px 50px 36px;
     background-color: rgb(198, 228, 214);
     border-radius: 30px;
+}
+.card2:hover{
+    box-shadow: 0px 6px 50px 0px rgba(107, 233, 5, 0.15);
 }
 
 .card3 {
@@ -339,6 +358,9 @@ select{
     border-radius: 30px;
 }
 
+.card3:hover{
+    box-shadow: 0px 6px 50px 0px rgba(107, 233, 5, 0.15);
+}
 .card-img {
     text-align: left;
 }
@@ -356,6 +378,7 @@ select{
     padding: 10px 15px;
     border-radius: 8px;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .card-btn1:hover {
@@ -375,6 +398,7 @@ select{
     padding: 10px 15px;
     border-radius: 8px;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .card-btn2:hover {
@@ -394,6 +418,7 @@ select{
     padding: 10px 15px;
     border-radius: 8px;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .card-btn3:hover {
@@ -547,14 +572,14 @@ select{
 }
 
 .amount-box:hover {
-    background-color: rgb(228, 214, 198);
+    background-color: rgb(198, 228, 214);
 }
 
 .amount-box2 {
     max-width: 240px;
     margin: 20px;
     padding: 40px;
-    background-color: rgb(198, 228, 214);
+    background-color: #ffffff;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 10px;
     color: rgba(14, 14, 14, 0.8);
@@ -567,7 +592,7 @@ select{
 }
 
 .amount-box2:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(198, 228, 214);
 }
 
 .amount-box3 {
@@ -587,7 +612,7 @@ select{
 }
 
 .amount-box3:hover {
-    background-color: rgb(216, 198, 228);
+    background-color: rgb(198, 228, 214);
 }
 
 .amount-box4 {
@@ -607,7 +632,7 @@ select{
 }
 
 .amount-box4:hover {
-    background-color: rgb(228, 198, 215);
+    background-color: rgb(198, 228, 214);
 }
 
 .input1 {
@@ -643,20 +668,22 @@ input {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 106, 80);
     font-family: Fira Sans;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0%;
     text-align: center;
     border: none;
-    padding: 15px 15px;
+    padding: 15px 20px;
     border-radius: 8px;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .btn-d {
     text-align: center;
     margin: 25px auto;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .btn-donate:hover {
@@ -717,8 +744,8 @@ input {
     text-align: left;
     border: none;
     gap: none;
-    padding: 20px 36px;
-    border-radius: 8px;
+    padding: 22px 36px;
+    border-radius: 0px 10px 10px 0px;
     margin-left: -8px;
 }
 
@@ -736,7 +763,7 @@ input {
     padding: 80px 100px;
 }
 .sub-input{
-    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
     width: 600px;
 }
 .sub-subline{
