@@ -248,9 +248,7 @@ body{
     margin: 10px;
     padding-top: 10px;
 }
-.box{
-    display: flex;
-}
+
 .recent-head{
     margin: 40px 180px;
 }
@@ -295,8 +293,154 @@ body{
     border-radius: 20px;
 }
 .box{
+    display: flex;
     margin: 48px 180px;
+    background-color: #ffffff;
+    border-radius: 30px;
 }
 .box2{
     display: flex;
 }
+
+/*  recent secton end from here */
+
+/* Donate Section Start From here */
+
+  
+.donate-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donate-details{
+    max-width: 1100px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px auto;
+}
+.amount-container{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto;
+}
+.amount-box{
+    max-width: 240px;
+    margin: 20px;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.amount-box2{
+    max-width: 240px;
+    margin: 20px;
+    padding: 40px;
+    background-color: rgb(198, 228, 214);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.amount-box3{
+    max-width: 240px;
+    margin: 20px;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.amount-box4{
+    max-width: 240px;
+    margin: 20px;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.input1{
+    max-width: 800px;
+    margin: 20px 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 20px 40px 20px 40px;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+}
+input{
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-donate{
+    justify-content: center;
+    margin: 10px auto;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+.btn-d{
+    text-align: center;
+    margin: 25px auto;
+}
+
+#donate{
+    margin: 80px auto;
+}
+
+/* Donate Section End From Here */
